@@ -1,7 +1,7 @@
 def solution(participant, completion):
     dict = {}
     
-    # 선수 이름 수로 정렬
+    # 선수 이름 수로 정렬  
     for p in participant:
         if p in dict:
             dict[p] += 1
