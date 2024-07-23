@@ -1,5 +1,5 @@
 def solution(clothes):
-    # 딕셔너리 만들기
+    # 딕셔너리 만들기 
     dic = {}
     for _,cloth in clothes:
         if cloth in dic:
