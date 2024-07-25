@@ -9,3 +9,4 @@ def solution(s):
         else: # 공백일 때
             answer += s[i]
     return answer
+
