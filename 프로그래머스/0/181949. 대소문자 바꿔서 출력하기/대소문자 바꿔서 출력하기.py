@@ -1,3 +1,4 @@
+# upper lower
 str = input()
 answer = ''
 for i in range(len(str)):
