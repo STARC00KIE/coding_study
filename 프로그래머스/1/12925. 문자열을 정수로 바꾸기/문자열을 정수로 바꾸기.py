@@ -3,6 +3,6 @@ def solution(s):
         answer = int(s)
     elif s[0] == "+": # +일 때
         answer = int(s[1:])
-    elif s[0] == "-": # -일 때
+    else: # -일 때
         answer = 0 - int(s[1:])
     return answer
