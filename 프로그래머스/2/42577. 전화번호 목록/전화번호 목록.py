@@ -1,16 +1,3 @@
-
-"""
-# 실패한 케이스
-
-def solution(phone_book):
-    N = phone_book.pop(0)  # 구조대 번호
-     
-    for num in phone_book:
-        if num.startswith(N):
-            return False
-    return True
-"""
-
 def solution(phone_book):
     phone_book.sort() # 정렬
     
